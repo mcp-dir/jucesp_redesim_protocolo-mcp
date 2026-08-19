@@ -1,0 +1,17 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.mcp-dir/jucesp_redesim_protocolo-mcp",
+  "title": "JUCESP: REDESIM, Acompanhamento de Protocolo",
+  "description": "Tracks a REDESIM protocol at JUCESP (company opening, change or closure). Platform-hosted, no creden",
+  "version": "0.1.0",
+  "repository": {
+    "url": "https://github.com/mcp-dir/jucesp_redesim_protocolo-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.mcp.ai/p_jucesp_redesim_protocolo"
+    }
+  ]
+}
